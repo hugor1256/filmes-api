@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugor\\RiderProjects\\FilmesApi\\FilmesApi\\FilmesApi.csproj": {}
+    "D:\\Pessoal\\FilmesApi\\FilmesApi\\FilmesApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugor\\RiderProjects\\FilmesApi\\FilmesApi\\FilmesApi.csproj": {
+    "D:\\Pessoal\\FilmesApi\\FilmesApi\\FilmesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugor\\RiderProjects\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+        "projectUniqueName": "D:\\Pessoal\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
         "projectName": "FilmesApi",
-        "projectPath": "C:\\Users\\hugor\\RiderProjects\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
-        "packagesPath": "C:\\Users\\hugor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugor\\RiderProjects\\FilmesApi\\FilmesApi\\obj\\",
+        "projectPath": "D:\\Pessoal\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+        "packagesPath": "C:\\Users\\hmartins\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\FilmesApi\\FilmesApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hugor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://www.nuget.sgi.ms.gov.br/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +47,21 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -69,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
